@@ -22,4 +22,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RVezy.WebAPI\RVezy.WebAPI.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="listings.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
